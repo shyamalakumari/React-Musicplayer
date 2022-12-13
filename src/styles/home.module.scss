@@ -1,0 +1,40 @@
+
+
+.home {
+    //  background: linear-gradient(to right,rgb(70, 4, 4),rgb(3, 90, 112));
+     background: linear-gradient(to right,rgb(70, 4, 4),rgb(4, 72, 108));
+
+        color: white;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 90%;
+     align-items: center;
+     padding:0 1rem;
+     .header{
+         width: 100%;
+         align-items: center;
+         display: flex;
+         height: 10vh;
+         justify-content: space-between;
+        }
+        
+        .outline {
+            display: flex;
+            gap: 2rem;
+        }
+      
+        button{
+            border: none;
+            border-radius: 2rem;
+            padding: 0.9rem;
+     }
+     .list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        img{
+            width: 10rem;
+        }
+     }
+ }

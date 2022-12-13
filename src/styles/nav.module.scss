@@ -1,0 +1,17 @@
+.aside {
+    width: 15%;
+    height: 100vh;
+    background: linear-gradient(to bottom,rgb(2, 106, 147),rgb(160, 3, 113),rgb(92, 3, 86) ) ; 
+    color: white;
+    ul{
+     display:flex;
+     flex-direction: column;
+
+     gap: 2rem;   
+    }
+    .plus{
+        border-top: 1px solid white;
+        margin-top: 3rem;
+        padding: 1rem;
+    }
+}
